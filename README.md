@@ -35,3 +35,19 @@ Linux o Mac
 ```sh
 python3 game/main.py
 ```
+
+## Crear una grafica con matplotlib
+
+Para correr matplotlib ejecuta el siguiente comando en la terminal
+
+Windows
+
+```sh
+py charts/main.py
+```
+
+Linux o Mac
+
+```sh
+python3 charts/main.py
+```
