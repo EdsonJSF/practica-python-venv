@@ -13,40 +13,44 @@ Los entornos virtuales son una herramienta esencial en el desarrollo de proyecto
 
 - Clona o descarga el repositorio.
 - Crea un entorno virtual para el proyecto (recomendado)
+- Activa el entorno virtual
 - Instala las dependencias con pip
 
-## Uso
+Windows
 
-- Activa el entorno virtual
-- Ejecuta el archivo main.py en la terminal
+```sh
+  py -m venv env
+  env\Scripts\activate
+  pip install -r requirements.txt
+```
+
+Linux o Mac
+
+```sh
+  python3 -m venv env
+  env\Scripts\activate
+  pip3 install -r requirements.txt
+```
 
 ## Ejecutar el Juego (Piedra, Papel o Tjera)
 
 Para correr el juego de piedra papel o tijera ejecuta el siguiente comando en la terminal
 
-Windows
-
 ```sh
 py game/main.py
 ```
-
-Linux o Mac
 
 ```sh
 python3 game/main.py
 ```
 
-## Crear una grafica con matplotlib
+## Crear una Gráfica con Matplotlib
 
 Para correr matplotlib ejecuta el siguiente comando en la terminal
-
-Windows
 
 ```sh
 py charts/main.py
 ```
-
-Linux o Mac
 
 ```sh
 python3 charts/main.py
