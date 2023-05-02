@@ -34,8 +34,6 @@ Linux o Mac
 
 ## Ejecutar el Juego (Piedra, Papel o Tjera)
 
-Para correr el juego de piedra papel o tijera ejecuta el siguiente comando en la terminal
-
 ```sh
 py game/main.py
 ```
@@ -46,12 +44,20 @@ python3 game/main.py
 
 ## Crear una Gráfica con Matplotlib
 
-Para correr matplotlib ejecuta el siguiente comando en la terminal
-
 ```sh
 py charts/main.py
 ```
 
 ```sh
 python3 charts/main.py
+```
+
+## Hacer una Solicitud HTTP con Requests
+
+```sh
+py web-server/main.py
+```
+
+```sh
+python3 web-server/main.py
 ```
